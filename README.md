@@ -28,8 +28,6 @@ Build Tools: Maven (Backend), Angular CLI (Frontend)
 
 # 2️⃣ Backend (Spring Boot) Setup
 
-Open the backend/ folder in Spring Tool Suite (STS) / IntelliJ / Eclipse
-
 Configure application.properties
 
 spring.datasource.url=jdbc:mysql://localhost:3306/vrindavan_restaurant
