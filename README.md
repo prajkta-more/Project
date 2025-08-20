@@ -116,10 +116,15 @@ vrindavan-restaurant/
 │
 └── README.md
 
-# 📌 API Endpoints
-Method	Endpoint	Description
-POST	/api/reservations	Create a new reservation
-GET	/api/reservations	Fetch all reservations
+# Contact:
+For any questions or feedback, feel free to reach out:
+
+Your Name : Prajkta More , Pornima Kavade
+
+Email: prajktamore63@gmail.com
+
+GitHub link : https://github.com/prajkta2321/projectstud.git
+
 # 📸 Screenshots
 
 <img width="1919" height="1011" alt="Screenshot 2025-08-20 155739" src="https://github.com/user-attachments/assets/d6a05f89-a284-4d4e-aff6-facebff7bdaa" />
