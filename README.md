@@ -66,13 +66,18 @@ ng serve
 
  👉 Angular will run on: http://localhost:4200
 
+# 4️⃣ Connect Angular with Spring Boot
+
+In reservation.service.ts update API URL:
+
+private baseUrl = 'http://localhost:8080/api/reservations';
+
 # 📂 Project Structure
 
 vrindavan-restaurant/
 
 │
-├── backend/         # Spring Boot Code
-
+├── backend/       
 │   ├── src/main/java/com/example/restaurant
 
 │   │   ├── controller/ReservationController.java
@@ -104,6 +109,14 @@ vrindavan-restaurant/
 
 │
 └── README.md
+
+# 📌 API Endpoints
+
+Method	Endpoint	Description
+
+POST	/api/reservations	Create a new reservation 
+
+GET	/api/reservations	Fetch all reservations
 
 # Contact:
 For any questions or feedback, feel free to reach out:
