@@ -20,11 +20,11 @@ API integration between Angular and Spring Boot
 
 # 🛠️ Tech Stack
 
-Frontend: Angular 16+, HTML5, CSS3, TypeScript
+Frontend: Angular 19, HTML5, CSS, TypeScript
 
 Backend: Spring Boot 3+, Java 17
 
-Database: MySQL (or PostgreSQL)
+Database: PostgreSQL
 
 Build Tools: Maven (Backend), Angular CLI (Frontend)
 
@@ -33,7 +33,7 @@ Build Tools: Maven (Backend), Angular CLI (Frontend)
 git clone https://github.com/your-username/vrindavan-restaurant.git
 cd vrindavan-restaurant
 
-2️⃣ Backend (Spring Boot) Setup
+# 2️⃣ Backend (Spring Boot) Setup
 
 Open the backend/ folder in Spring Tool Suite (STS) / IntelliJ / Eclipse
 
@@ -51,9 +51,9 @@ Run the Spring Boot Application
 mvn spring-boot:run
 
 
-# 👉 Server will start at: http://localhost:8080
+ 👉 Server will start at: http://localhost:8080
 
-3️⃣ Frontend (Angular) Setup
+# 3️⃣ Frontend (Angular) Setup
 
 Open the frontend/ folder in VS Code
 
@@ -79,6 +79,7 @@ private baseUrl = 'http://localhost:8080/api/reservations';
 Now form submissions will hit the backend. 🎉
 
 # 📂 Project Structure
+
 vrindavan-restaurant/
 
 │
@@ -93,16 +94,26 @@ vrindavan-restaurant/
 │   │   └── repository/ReservationRepository.java
 
 │   └── src/main/resources/application.properties
+
 │
-├── frontend/                # Angular Code
+├── frontend/    
+
 │   ├── src/app
+
 │   │   ├── home/home.component.ts
+
 │   │   ├── menu/menu.component.ts
+
 │   │   ├── about/about.component.ts
+
 │   │   ├── contact/contact.component.ts
+
 │   │   ├── reservation/reservation.component.ts
+
 │   │   └── services/reservation.service.ts
+
 │   └── angular.json
+
 │
 └── README.md
 
@@ -112,7 +123,13 @@ POST	/api/reservations	Create a new reservation
 GET	/api/reservations	Fetch all reservations
 # 📸 Screenshots
 
-👉 (Add screenshots of your Home Page, Menu Page, Reservation Form)
+<img width="1919" height="1011" alt="Screenshot 2025-08-20 155739" src="https://github.com/user-attachments/assets/d6a05f89-a284-4d4e-aff6-facebff7bdaa" />
+<img width="1909" height="1026" alt="Screenshot 2025-08-20 155846" src="https://github.com/user-attachments/assets/22194a3e-5eeb-47d7-a9d9-d40c849cb71b" />
+<img width="1915" height="1015" alt="Screenshot 2025-08-20 155927" src="https://github.com/user-attachments/assets/d9ee1d55-381c-49c3-b15b-387f904c678c" />
+<img width="1910" height="1006" alt="Screenshot 2025-08-20 160119" src="https://github.com/user-attachments/assets/27dacb99-67e6-40de-8180-cfb53c283e60" />
+
+
+
 
 # 👨‍💻 Author
 
