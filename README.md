@@ -34,16 +34,23 @@ Open the backend/ folder in Spring Tool Suite (STS) / IntelliJ / Eclipse
 
 Configure application.properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/vrindavan_restaurant
+spring.application.name=vrindavan_restaurant
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/vrindavan_restaurant
 
 spring.datasource.username=postgres
 
 spring.datasource.password=your_password
 
+spring.datasource.driver-class-name=org.postgresql.Driver
+
 spring.jpa.hibernate.ddl-auto=update
 
 spring.jpa.show-sql=true
 
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+server.port=8080
 
 Run the Spring Boot Application
 
