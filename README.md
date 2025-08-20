@@ -28,21 +28,20 @@ Database: PostgreSQL
 
 Build Tools: Maven (Backend), Angular CLI (Frontend)
 
-# ⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/vrindavan-restaurant.git
-cd vrindavan-restaurant
-
 # 2️⃣ Backend (Spring Boot) Setup
 
 Open the backend/ folder in Spring Tool Suite (STS) / IntelliJ / Eclipse
 
 Configure application.properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/restaurantdb
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+spring.datasource.url=jdbc:mysql://localhost:3306/vrindavan_restaurant
+
+spring.datasource.username=postgres
+
+spring.datasource.password=your_password
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
 
 
@@ -67,9 +66,9 @@ Run Angular App
 ng serve
 
 
-# 👉 Angular will run on: http://localhost:4200
+ 👉 Angular will run on: http://localhost:4200
 
-4️⃣ Connect Angular with Spring Boot
+# 4️⃣ Connect Angular with Spring Boot
 
 In reservation.service.ts update API URL:
 
@@ -127,6 +126,7 @@ GET	/api/reservations	Fetch all reservations
 <img width="1909" height="1026" alt="Screenshot 2025-08-20 155846" src="https://github.com/user-attachments/assets/22194a3e-5eeb-47d7-a9d9-d40c849cb71b" />
 <img width="1915" height="1015" alt="Screenshot 2025-08-20 155927" src="https://github.com/user-attachments/assets/d9ee1d55-381c-49c3-b15b-387f904c678c" />
 <img width="1910" height="1006" alt="Screenshot 2025-08-20 160119" src="https://github.com/user-attachments/assets/27dacb99-67e6-40de-8180-cfb53c283e60" />
+<img width="1919" height="1004" alt="Screenshot 2025-08-20 160207" src="https://github.com/user-attachments/assets/113b2f50-cafa-4410-abc1-0b70b967d73c" />
 
 
 
