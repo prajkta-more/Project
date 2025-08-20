@@ -14,15 +14,13 @@ Responsive Home, Menu, About, Contact pages
 
 Make Reservation form (connected to backend)
 
-Store reservation details in the database
-
 API integration between Angular and Spring Boot
 
 # 🛠️ Tech Stack
 
 Frontend: Angular 19, HTML5, CSS, TypeScript
 
-Backend: Spring Boot 3+, Java 17
+Backend: Spring Boot, Java 17
 
 Database: PostgreSQL
 
@@ -67,15 +65,6 @@ ng serve
 
 
  👉 Angular will run on: http://localhost:4200
-
-# 4️⃣ Connect Angular with Spring Boot
-
-In reservation.service.ts update API URL:
-
-private baseUrl = 'http://localhost:8080/api/reservations';
-
-
-Now form submissions will hit the backend. 🎉
 
 # 📂 Project Structure
 
@@ -123,7 +112,7 @@ Your Name : Prajkta More , Pornima Kavade
 
 Email: prajktamore63@gmail.com
 
-GitHub link : https://github.com/prajkta2321/projectstud.git
+GitHub link : https://github.com/prajkta-more/Project.git
 
 # 📸 Screenshots
 
@@ -134,9 +123,4 @@ GitHub link : https://github.com/prajkta2321/projectstud.git
 <img width="1919" height="1004" alt="Screenshot 2025-08-20 160207" src="https://github.com/user-attachments/assets/113b2f50-cafa-4410-abc1-0b70b967d73c" />
 
 
-
-
-# 👨‍💻 Author
-
-Developed with ❤️ by Prajkta More
 
