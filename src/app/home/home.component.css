@@ -213,12 +213,12 @@
 }
 /* ===== Footer Styling ===== */
 footer {
-  background-color: #111;      /* Dark background */
-  color: #fff;                 /* White text */
-  text-align: center;          /* Center content */
-  padding: 15px 0;             /* Top-bottom spacing */
+  background-color: #111;      
+  color: #fff;                 
+  text-align: center;          
+  padding: 15px 0;           
   font-size: 14px;
-  position: fixed;             /* Sticks at bottom */
+  position: fixed;             
   bottom: 0;
   left: 0;
   width: 100%;
@@ -229,8 +229,7 @@ footer {
 /* Restaurant Name Highlight */
 footer .name {
   font-weight: bold;
-  color: #ffcc00;              /* Golden color */
-}
+  color: #ffcc00;            
 
 /* Heart Style */
 footer .heart {
@@ -249,10 +248,10 @@ footer .heart {
 }
 
 .home-container {
-  background-image: url('assets/images/restaurant1.jpg'); /* ✅ अपनी image का सही path दो */
+  background-image: url('assets/images/restaurant1.jpg'); 
   background-size: cover;
   background-position: center;
-  height: 100vh;         /* पूरा स्क्रीन लेगा */
+  height: 100vh;         
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,7 +259,7 @@ footer .heart {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.5);   /* dark transparent effect */
+  background: rgba(0, 0, 0, 0.5);  
   color: #fff;
   padding: 40px;
   text-align: center;
@@ -291,3 +290,4 @@ footer .heart {
 .btn:hover {
   background: #e64a19;
 }
+
